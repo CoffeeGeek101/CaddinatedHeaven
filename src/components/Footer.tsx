@@ -9,7 +9,7 @@ const Footer = () => {
 
             <div className='flex flex-col gap-3 items-center p-10 border-b-[1px] border-orange-300 shadow-2xl'>
                 <p className={`${fatface.className} text-xl text-[#bd6200]`} >Caffinated Heaven.</p>
-                <p className='text-sm xs:text-xs text-[#fff] font-light'>follow us on socials, it's fun there too.</p>
+                <p className='text-sm xs:text-xs text-[#fff] font-light'>follow us on socials, its fun there too.</p>
                 <div className='flex flex-row gap-5 justify-around text-[#fff]'>
                     <Instagram className='hover:cursor-pointer active:scale-105' />
                     <Twitter className='hover:cursor-pointer active:scale-105' />
