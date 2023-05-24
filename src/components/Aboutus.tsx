@@ -12,7 +12,7 @@ const Aboutus = () => {
     }
 
     return (
-        <div className='w-full h-auto flex flex-col p-5 pb-[40px] bg-[#ffba6b7d] shadow-xl'>
+        <div id='aboutus' className='w-full h-auto flex flex-col p-5 pb-[40px] bg-[#ffba6b7d] shadow-xl'>
 
             <div className='w-full h-auto'>
                 <img
