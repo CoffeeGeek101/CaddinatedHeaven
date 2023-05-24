@@ -5,7 +5,7 @@ const fatface = Abril_Fatface({weight: "400", subsets: ['latin']});
 
 const Menu = () => {
   return (
-    <div className='w-full flex flex-col lg:flex-row lg: justify-around items-center h-[1000px] bg-[#6d2d00ea] bg-gradient-to-tl from-[#502000] to-[#ffdbb1dd] shadow-2xl pb-[100px]'>
+    <div id='menu' className='w-full flex flex-col lg:flex-row lg: justify-around items-center h-[1000px] bg-[#6d2d00ea] bg-gradient-to-tl from-[#502000] to-[#ffdbb1dd] shadow-2xl pb-[100px]'>
         <div className='flex flex-col items-center'>
         <p className={` ${fatface.className}  text-center p-5 text-[#fff] text-3xl`}> Our Menu</p>
             <div className='flex flex-col p-5 items-center'>
